@@ -1,6 +1,7 @@
 #sssssh. thest aren't real tests
 
 from character import Character
+from character import Hero
 
 #Characters can be instantiated with name and avatar
 
@@ -20,10 +21,13 @@ print(len(arya.inventory))
 
 #arya should have a 'greet' method
 #and when i call it with arya.greet(jon), it should return
-#"Hello,Jon Snow, I am Arya Stark. I am awesom."
+#"Hello,Jon Snow, I am Arya Stark. I am awesome."
 print(arya.greet(jon))
 
 #arya should have a 'greet' method
 #and when i call it with arya.greet(jon), it should return
-#"Hello, I am Arya Stark. I am awesom."
+#"Hello, I am Arya Stark. I am awesome."
 print(arya.greet())
+
+#I should be able to create a Hero Instance
+bronn = Hero("Bronn of the Blackwater", "bronn.png")
