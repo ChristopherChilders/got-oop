@@ -31,3 +31,8 @@ print(arya.greet())
 
 #I should be able to create a Hero Instance
 bronn = Hero("Bronn of the Blackwater", "bronn.png")
+
+#hero should be able to greet character
+print(bronn.greet(arya))
+print(jon.greet(bronn))
+print(arya.greet(bronn))
