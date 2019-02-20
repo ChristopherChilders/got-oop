@@ -38,4 +38,7 @@ print(bronn.greet(arya))
 print(jon.greet(bronn))
 print(arya.greet(bronn))
 
+#remember to import the 'Monster' subclass from 'character.py' 
+#otherwise, you get an error message!
+
 dragon = Monster("Dragon of Hell's Keep", "dragon.png")
