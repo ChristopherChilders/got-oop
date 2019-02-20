@@ -2,6 +2,7 @@
 
 from character import Character
 from character import Hero
+from character import Monster
 
 #Characters can be instantiated with name and avatar
 
@@ -36,3 +37,5 @@ bronn = Hero("Bronn of the Blackwater", "bronn.png")
 print(bronn.greet(arya))
 print(jon.greet(bronn))
 print(arya.greet(bronn))
+
+dragon = Monster("Dragon of Hell's Keep", "dragon.png")
